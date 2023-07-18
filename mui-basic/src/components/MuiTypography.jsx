@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material'
-export const MuiTypography = () => {
+const MuiTypography = () => {
   return (
     <div>
         <Typography variant='h1'>h1 Heading</Typography>
@@ -15,3 +15,4 @@ export const MuiTypography = () => {
     </div>
   )
 }
+export default MuiTypography

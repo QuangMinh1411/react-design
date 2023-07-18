@@ -1,11 +1,11 @@
 import { Stack, Button,IconButton,ButtonGroup,ToggleButton,ToggleButtonGroup} from "@mui/material"
 import SendIcon from '@mui/icons-material/Send';
 import { FormatBold,FormatItalic,FormatUnderlined } from "@mui/icons-material";
-import React, { useState } from "react";
+import { useState } from "react";
 
-export const MuiButton = () => {
-    const [formats,setFormats] = useState<string|null>(null)
-    const handleFormat = (_event:React.MouseEvent<HTMLElement>,updatedFormats: string|null)=>{
+const MuiButton = () => {
+    const [formats,setFormats] = useState([])
+    const handleFormat = (_event,updatedFormats)=>{
         setFormats(updatedFormats);
         
     }
@@ -55,7 +55,7 @@ export const MuiButton = () => {
             </ToggleButtonGroup>
         </Stack>
     </Stack>
-    
   )
 }
 
+export default MuiButton
