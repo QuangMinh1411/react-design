@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Rating, Stack } from '@mui/material'
 import FavoriteIcon from '@mui/icons-material/Favorite'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
@@ -15,6 +15,7 @@ const MuiRating = () => {
         precision={0.5} size='large'
         icon={<FavoriteIcon fontSize='inherit' color='success' />} 
         emptyIcon={<FavoriteBorderIcon fontSize='inherit' />}
+        highlightSelectedOnly
         />
 
     </Stack>
