@@ -1,15 +1,11 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 import {Box,FormControlLabel,Switch} from '@mui/material'
-import { useState } from 'react'
-const MuiSwitch = () => {
-    const [checked,setChecked] = useState(false);
-    const handleChange = (e)=>{
-        setChecked(e.target.checked)
-    }
-    console.log(checked)
+
+const MuiSwitch = ({handleChange,checked}) => {
+    
   return (
     <Box>
-        <FormControlLabel label='Dark mode' control={<Switch checked={checked} onChange={handleChange} />} />
+        <FormControlLabel label={checked?'Dark mode':'Day mode'} control={<Switch checked={checked} onChange={handleChange} />} />
     </Box>
   )
 }
