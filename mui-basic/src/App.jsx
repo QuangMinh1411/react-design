@@ -9,7 +9,10 @@ import './App.css';
 // import MuiCheckBox from './components/MuiCheckBox';
 import MuiSwitch from './components/MuiSwitch';
 // import MuiRating from './components/MuiRating';
-import MuiLayout from './components/MuiLayout'
+// import MuiLayout from './components/MuiLayout'
+// import MuiCard from './components/MuiCard';
+// import MuiAccordion from './components/MuiAccordion';
+import MuiImageList from './components/MuiImageList';
 function App() {
   
   return (
@@ -22,7 +25,10 @@ function App() {
       <MuiSwitch />
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
-      <MuiLayout />
+      {/* <MuiLayout /> */}
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
+      <MuiImageList />
     </div>
   )
 }
