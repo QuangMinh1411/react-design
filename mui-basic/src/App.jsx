@@ -14,6 +14,7 @@ import MuiSwitch from './components/MuiSwitch';
 // import MuiAccordion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
 import MuiNavBar  from "./components/MuiNavBar.jsx";
+import MuiLink from './components/MuiLink.jsx';
 function App() {
   
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* <MuiAccordion /> */}
       {/*<MuiImageList />*/}
         <MuiNavBar />
+        <MuiLink />
     </div>
   )
 }
