@@ -3,13 +3,13 @@ import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 import {useState} from 'react'
 const MuiNavBar = () => {
-    const [anchorEl,setAnchorEl] = useState(null)
+    const [anchorEl,setAnchorEl] = useState(undefined)
     const open = Boolean(anchorEl);
     const handleCLick = (e)=>{
         setAnchorEl(e.currentTarget)
     }
 
-    const handleClose = (e)=>{
+    const handleClose = ()=>{
         setAnchorEl(null);
     }
 
