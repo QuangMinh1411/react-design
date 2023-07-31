@@ -13,10 +13,11 @@ import MuiSwitch from './components/MuiSwitch';
 // import MuiCard from './components/MuiCard';
 // import MuiAccordion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
-import MuiNavBar  from "./components/MuiNavBar.jsx";
+// import MuiNavBar  from "./components/MuiNavBar.jsx";
 // import MuiLink from './components/MuiLink.jsx';
-import MuiBreadCumbs from "./components/MuiBreadCumbs.jsx";
-import MuiDrawer from "./components/MuiDrawer.jsx";
+// import MuiBreadCumbs from "./components/MuiBreadCumbs.jsx";
+// import MuiDrawer from "./components/MuiDrawer.jsx";
+import MuiSpeedDial from './components/MuiSpeedDial';
 function App() {
   
   return (
@@ -33,10 +34,11 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/*<MuiImageList />*/}
-        <MuiNavBar />
+      {/* <MuiNavBar /> */}
       {/*  /!*<MuiLink />*!/*/}
-      <MuiBreadCumbs />
-        <MuiDrawer />
+      {/* <MuiBreadCumbs /> */}
+        {/* <MuiDrawer /> */}
+      <MuiSpeedDial />
     </div>
   )
 }
