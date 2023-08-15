@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import MuiAlert from './components/MuiAlert';
+import MuiSnackBar from './components/MuiSnackBar';
+// import MuiAlert from './components/MuiAlert';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 // import MuiButton from "./components/MuiButton";
 // import MuiTypography from "./components/MuiTypography"
@@ -54,7 +55,8 @@ function App() {
       {/* <MuiChip /> */}
       {/* <MuiToolTip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
+      <MuiSnackBar />
     </div>
   )
 }
