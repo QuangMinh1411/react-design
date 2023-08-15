@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
+import MuiAlert from './components/MuiAlert';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 // import MuiButton from "./components/MuiButton";
 // import MuiTypography from "./components/MuiTypography"
@@ -22,8 +23,9 @@ import './App.css';
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiBadge from './components/MuiBadge';
 // import MuiList from './components/MuiList';
-import MuiChip from './components/MuiChip';
-import MuiToolTip from './components/MuiToolTip';
+// import MuiChip from './components/MuiChip';
+// import MuiToolTip from './components/MuiToolTip';
+// import MuiTable from './components/MuiTable';
 function App() {
   
   return (
@@ -50,7 +52,9 @@ function App() {
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
-      <MuiToolTip />
+      {/* <MuiToolTip /> */}
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   )
 }
