@@ -7,7 +7,7 @@ import './App.css';
 // import MuiSelect from './components/MuiSelect';
 // import MuiRadioButton from './components/MuiRadioButton';
 // import MuiCheckBox from './components/MuiCheckBox';
-import MuiSwitch from './components/MuiSwitch';
+// import MuiSwitch from './components/MuiSwitch';
 // import MuiRating from './components/MuiRating';
 // import MuiLayout from './components/MuiLayout'
 // import MuiCard from './components/MuiCard';
@@ -21,7 +21,8 @@ import MuiSwitch from './components/MuiSwitch';
 // import MuiBottomNavigation from './components/MuiBottomNavigation';
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiBadge from './components/MuiBadge';
-import MuiList from './components/MuiList';
+// import MuiList from './components/MuiList';
+import MuiChip from './components/MuiChip';
 function App() {
   
   return (
@@ -31,7 +32,7 @@ function App() {
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckBox /> */}
-      <MuiSwitch />
+      {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
@@ -46,7 +47,8 @@ function App() {
       <MuiBottomNavigation /> */}
       {/* <MuiAvatar/> */}
       {/* <MuiBadge /> */}
-      <MuiList />
+      {/* <MuiList /> */}
+      <MuiChip />
     </div>
   )
 }
