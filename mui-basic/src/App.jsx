@@ -28,7 +28,8 @@ import './App.css';
 // import MuiToolTip from './components/MuiToolTip';
 // import MuiTable from './components/MuiTable';
 // import MuiDialog from './components/MuiDialog';
-import MuiProgress from './components/MuiProgress';
+// import MuiProgress from './components/MuiProgress';
+import MuiSkeleton from './components/MuiSkeleton';
 function App() {
   
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <MuiAlert /> */}
       {/* <MuiSnackBar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgress />
+      {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   )
 }
