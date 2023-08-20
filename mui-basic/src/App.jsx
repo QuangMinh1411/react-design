@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
-import MuiSnackBar from './components/MuiSnackBar';
+// import MuiSnackBar from './components/MuiSnackBar';
 // import MuiAlert from './components/MuiAlert';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 // import MuiButton from "./components/MuiButton";
@@ -27,6 +27,7 @@ import MuiSnackBar from './components/MuiSnackBar';
 // import MuiChip from './components/MuiChip';
 // import MuiToolTip from './components/MuiToolTip';
 // import MuiTable from './components/MuiTable';
+import MuiDialog from './components/MuiDialog';
 function App() {
   
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <MuiToolTip /> */}
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
-      <MuiSnackBar />
+      {/* <MuiSnackBar /> */}
+      <MuiDialog />
     </div>
   )
 }
